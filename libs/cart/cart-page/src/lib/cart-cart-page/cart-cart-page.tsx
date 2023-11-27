@@ -100,7 +100,7 @@ export const CartCartPage = () => {
             </figure>
           </a>
           <a href={`/product/${item.productId}`} className="title">
-            <h2>{getProduct(productsState, item.productId).name}</h2>
+            <h2>{getProduct(productsState, item.productId).name} ok</h2>
           </a>
           <p>
             <nx-shops-product-price
